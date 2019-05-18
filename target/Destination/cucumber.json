@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4811003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.LoadTestData()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "validate the negative login functionality",
+        "description": "",
+        "id": "validate-the-login-functionality-for-utest;validate-the-negative-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 220697236,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.close(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32776803755,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to utest url",
+            "match": {
+              "location": "LoginStepDefinition.navigate_to_utest_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11932309556,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on sign in link",
+            "match": {
+              "location": "LoginStepDefinition.click_on_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5415989888,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter email \"EMAIL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EMAIL",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinition.enter_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6396929465,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on sign in button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148222585,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the error message \"EXPECTED\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EXPECTED",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.validate_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@US0003"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login Functionality for utest",
+    "description": "",
+    "id": "validate-the-login-functionality-for-utest",
+    "keyword": "Feature",
+    "uri": "LoginSample.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sprint1"
+      }
+    ]
+  }
+]
